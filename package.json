@@ -1,0 +1,16 @@
+{
+  "name": "simple-node-upload-server",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Tithiwat Therdbankerd <tithiwattong@gmail.com>",
+  "main": "upload.js",
+  "scripts": {
+    "start": "node upload.js"
+  },
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "util": "^0.12.1"
+  }
+}
