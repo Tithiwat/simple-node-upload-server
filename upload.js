@@ -25,7 +25,7 @@ http.createServer(function (req, res) {
 
     form.on('file', function (field, file) {
       //rename the incoming file to the file's name
-      fs.rename(file.path, form.uploadDir + "/" + file.name);
+      fs.renameSync(file.path, form.uploadDir + "/" + file.name);
     });
 
     form.on('error', function (err) {
