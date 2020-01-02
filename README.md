@@ -18,7 +18,7 @@ docker run --rm -p [YOUR_PORT]:8080 -v="[HOST]:/usr/src/app/upload" -d [Docker r
 
 For example,
 ```shell
-docker run --rm -p 8080:8080 -d -v=".:/usr/src/app/upload" tithiwat/simple-node-upload-server:latest
+docker run --rm -p 8080:8080 -d -v="$(pwd):/usr/src/app/upload" tithiwat/simple-node-upload-server:latest
 ```
 
 
