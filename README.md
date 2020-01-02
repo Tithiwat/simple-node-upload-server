@@ -21,4 +21,8 @@ For example,
 docker run --rm -p 8080:8080 -d tithiwat/simple-node-upload-server:latest
 ```
 
+
 Lastly, use Web browser (Chrome) to inspect
+## Result
+![Result](https://raw.githubusercontent.com/Tithiwat/simple-node-upload-server/master/images/result.png)
+
