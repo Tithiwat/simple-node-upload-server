@@ -15,5 +15,7 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+VOLUME [/usr/src/app/upload]
+
 EXPOSE 8080
 CMD [ "node", "upload.js" ]
